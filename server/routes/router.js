@@ -6,7 +6,7 @@ const taskController = require('../controllers/taskController')
 
 const router = express.Router()
 
-router.get('/employee/all', employeeController.getEmployee)
+router.get('/employee/a', employeeController.getEmployee)
 router.post('/employee/create', employeeController.createEmploye)
 router.put('/employee/edit/:id', employeeController.updateEmployee);
 router.delete('/employees/delete/:id', employeeController.deleteEmployee)
